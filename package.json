@@ -1,14 +1,18 @@
 {
 	"name": "rightonhana-card",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "A simple presentation card package.",
 	"main": "./dist/index.js",
 	"bin": "./dist/index.js",
 	"source": "./src/index.ts",
 	"types": "./dist/index.d.ts",
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"clean": "rimraf ./dist",
 		"compile": "tsc",
+		"prepublishOnly": "run-s compile",
 		"start": "ts-node ./src/index.ts"
 	},
 	"repository": {
