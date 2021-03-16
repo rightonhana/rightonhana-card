@@ -1,6 +1,6 @@
 {
 	"name": "rightonhana-card",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "A simple presentation card package.",
 	"main": "./dist/index.js",
 	"bin": "./dist/index.js",
