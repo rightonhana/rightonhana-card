@@ -2,18 +2,18 @@
 
 import {
 	bold,
-	cyanText,
+	foregroundBlue,
+	foregroundCyan,
+	foregroundRed,
+	foregroundYellow,
 	mix,
-	blueText,
-	redText,
-	underlined,
-	yellowText,
-} from "@vangware/forcli";
+	underlined
+} from "@vangware/ansi";
 import boxen from "boxen";
 import clear from "clear";
 
-const link = mix([cyanText, underlined]);
-const name = mix([cyanText, bold]);
+const link = mix([foregroundCyan, underlined]);
+const name = mix([foregroundCyan, bold]);
 const isWindows = process.platform === "win32";
 
 const message = `
@@ -50,14 +50,14 @@ ${(isWindows ?
 		"⣿⠏⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡯⢸⣿",
 		"⡏⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⢸⣿",
 	])
-		.map(cyanText)
+		.map(foregroundCyan)
 		.join("\n")}
 
 I'm a Front-end Developer with experience in Angular, React and Svelte.
 I love cats and my hobbies are playing games and learn new technologies.
-I'm from ${cyanText("Ar")}ge${yellowText("n")}ti${cyanText(
+I'm from ${foregroundCyan("Ar")}ge${foregroundYellow("n")}ti${foregroundCyan(
 	"na"
-)} but I'm currently living in the ${redText("U")}${blueText("S")}A.
+)} but I'm currently living in the ${foregroundRed("U")}${foregroundBlue("S")}A.
 
 ${bold("Pronouns")}: She / Her
 
