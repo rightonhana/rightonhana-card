@@ -1,41 +1,16 @@
 {
 	"name": "rightonhana-card",
-	"version": "2.0.4",
 	"description": "A simple presentation card package.",
-	"main": "./dist/index.js",
-	"bin": "./dist/index.js",
-	"source": "./src/index.ts",
-	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"clean": "rimraf ./dist",
-		"compile": "tsc",
-		"postpublish": "run-s clean",
-		"prepublishOnly": "run-s compile",
-		"start": "ts-node ./src/index.ts"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/rightonhana/rightonhana-card.git"
-	},
-	"keywords": [
-		"NPM",
-		"Business",
-		"Card",
-		"Node"
-	],
+	"version": "2.0.4",
 	"author": {
 		"name": "Florencia Gonzalez",
 		"email": "rightonhana@gmail.com",
 		"url": "https://rightonhana.me"
 	},
-	"license": "MIT",
+	"bin": "./dist/index.js",
 	"bugs": {
 		"url": "https://github.com/rightonhana/rightonhana-card/issues"
 	},
-	"homepage": "https://github.com/rightonhana/rightonhana-card#readme",
 	"dependencies": {
 		"@vangware/ansi": "^3.1.4",
 		"boxen": "^6.2.1",
@@ -48,5 +23,31 @@
 		"rimraf": "^3.0.2",
 		"ts-node": "^10.4.0",
 		"typescript": "^4.5.4"
-	}
+	},
+	"files": [
+		"dist"
+	],
+	"homepage": "https://github.com/rightonhana/rightonhana-card#readme",
+	"keywords": [
+		"Business",
+		"Card",
+		"NPM",
+		"Node"
+	],
+	"license": "MIT",
+	"main": "./dist/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rightonhana/rightonhana-card.git"
+	},
+	"scripts": {
+		"clean": "rimraf ./dist",
+		"compile": "tsc",
+		"postpublish": "run-s clean",
+		"prepublishOnly": "run-s compile",
+		"start": "node --loader ts-node/esm ./src/index.ts"
+	},
+	"source": "./src/index.ts",
+	"type": "module",
+	"types": "./dist/index.d.ts"
 }
