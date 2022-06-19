@@ -5,7 +5,7 @@
 	"author": {
 		"name": "Florencia Gonzalez",
 		"email": "rightonhana@gmail.com",
-		"url": "https://rightonhana.me"
+		"url": "https://rightonhana.dev"
 	},
 	"bin": "./dist/index.js",
 	"bugs": {
@@ -14,7 +14,8 @@
 	"dependencies": {
 		"@vangware/ansi": "^3.1.4",
 		"boxen": "^6.2.1",
-		"clear": "^0.1.0"
+		"clear": "^0.1.0",
+		"eslint": "^8.18.0"
 	},
 	"devDependencies": {
 		"@types/clear": "^0.1.2",
