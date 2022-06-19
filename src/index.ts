@@ -65,7 +65,7 @@ If you want to know more about me:
 
 ${bold`Github`}: ${link`https://github.com/rightonhana`}
 ${bold`NPM`}: ${link`https://www.npmjs.com/~rightonhana`}
-${bold`Website`}: ${link`https://rightonhana.me/`}
+${bold`Website`}: ${link`https://rightonhana.dev/`}
 `;
 
 export default [
