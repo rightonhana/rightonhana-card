@@ -4,7 +4,7 @@
 	"version": "2.0.7",
 	"author": {
 		"name": "Florencia Gonzalez",
-		"email": "rightonhana@gmail.com",
+		"email": "hello@rightonhana.dev",
 		"url": "https://rightonhana.dev"
 	},
 	"bin": "./dist/index.js",
