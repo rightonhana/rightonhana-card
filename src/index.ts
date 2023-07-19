@@ -12,8 +12,8 @@ import {
 import boxen from "boxen";
 import clear from "clear";
 
-const link = mix([foregroundCyan, underlined]);
-const name = mix([foregroundCyan, bold]);
+const link = mix(foregroundCyan, underlined);
+const name = mix(foregroundCyan, bold);
 const isWindows = process.platform === "win32";
 
 const message = `
