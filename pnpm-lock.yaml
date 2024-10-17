@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@coven/terminal':
-        specifier: npm:@jsr/coven__terminal@^0.0.6
-        version: '@jsr/coven__terminal@0.0.6'
+        specifier: https://npm.jsr.io/~/11/@jsr/coven__terminal/0.0.6.tgz
+        version: '@jsr/coven__terminal@https://npm.jsr.io/~/11/@jsr/coven__terminal/0.0.6.tgz'
       boxen:
         specifier: ^7.1.1
         version: 7.1.1
@@ -94,8 +94,9 @@ packages:
   '@jsr/coven__constants@0.0.7':
     resolution: {integrity: sha512-ZGOwSudGWgTLMoYJvg+P1M1mPq3mE/7Qj9QZN8INu+rPgw02NL9p7zamzvDX6/47xp6YdFkQgTf6oJUmZNEsUg==, tarball: https://npm.jsr.io/~/11/@jsr/coven__constants/0.0.7.tgz}
 
-  '@jsr/coven__terminal@0.0.6':
-    resolution: {integrity: sha512-JVMJYvBOJwCbHLDC9RJqJoNWq7y60AGnumlrEw/2xwjn9D8HUjK2IesgEFs0tn96zuCzFbBsD2UpUpmSt3NzWg==, tarball: https://npm.jsr.io/~/11/@jsr/coven__terminal/0.0.6.tgz}
+  '@jsr/coven__terminal@https://npm.jsr.io/~/11/@jsr/coven__terminal/0.0.6.tgz':
+    resolution: {tarball: https://npm.jsr.io/~/11/@jsr/coven__terminal/0.0.6.tgz}
+    version: 0.0.6
 
   '@jsr/coven__types@0.0.11':
     resolution: {integrity: sha512-SV6uAgJgDnClegwwtZVZ9bPCbVefgLycSy9jjF4qc5m2f3lalsOgg6KX4Aap4xpr5eos8C0GhkC/PryVztU6Uw==, tarball: https://npm.jsr.io/~/11/@jsr/coven__types/0.0.11.tgz}
@@ -1082,7 +1083,7 @@ snapshots:
 
   '@jsr/coven__constants@0.0.7': {}
 
-  '@jsr/coven__terminal@0.0.6':
+  '@jsr/coven__terminal@https://npm.jsr.io/~/11/@jsr/coven__terminal/0.0.6.tgz':
     dependencies:
       '@jsr/coven__constants': 0.0.7
       '@jsr/coven__types': 0.0.11

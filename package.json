@@ -12,7 +12,7 @@
 		"url": "https://github.com/rightonhana/rightonhana-card/issues"
 	},
 	"dependencies": {
-		"@coven/terminal": "npm:@jsr/coven__terminal@^0.0.6",
+		"@coven/terminal": "https://npm.jsr.io/~/11/@jsr/coven__terminal/0.0.6.tgz",
 		"boxen": "^7.1.1",
 		"clear": "^0.1.0",
 		"eslint": "^8.45.0"
@@ -37,9 +37,6 @@
 	],
 	"license": "MIT",
 	"main": "./dist/index.js",
-	"publishConfig": {
-		"@jsr:registry": "https://npm.jsr.io"
-	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/rightonhana/rightonhana-card.git"
