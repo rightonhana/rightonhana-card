@@ -1,7 +1,7 @@
 {
 	"name": "rightonhana-card",
 	"description": "A simple presentation card package.",
-	"version": "2.0.10",
+	"version": "2.0.11",
 	"author": {
 		"name": "Florencia Gonzalez",
 		"email": "hello@rightonhana.dev",
@@ -37,6 +37,9 @@
 	],
 	"license": "MIT",
 	"main": "./dist/index.js",
+	"publishConfig": {
+		"@jsr:registry": "https://npm.jsr.io"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/rightonhana/rightonhana-card.git"
